@@ -1,0 +1,23 @@
+piVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: k8s
+  name: k8s
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: k8s
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:  
+        app: k8s
+    spec:
+      containers:
+      - name: k8s
+        image: dockerdongju/test:14
+      ports:  
+        - containerPort: 8080
