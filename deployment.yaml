@@ -13,11 +13,11 @@ spec:
   template:
     metadata:
       creationTimestamp: null
-      labels:  
+      labels:
         app: k8s
     spec:
       containers:
       - name: k8s
-        image: dockerdongju/jenkin:14
-      ports:  
-        - containerPort: 8080
+        image: dockerdongju/k8s:{jenkins build number}
+        ports:
+          - containerPort: 8080
