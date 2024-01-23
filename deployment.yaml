@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: k8s
-        image: {dockerhub}/k8s:6
+        image: {dockerhub}/k8s:{jenkins build number}
         ports:
           - containerPort: 8080
