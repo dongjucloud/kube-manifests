@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: k8s
-        image: dongjukim123/docker:13
+        image: dongjukim123/docker:14
         ports:
           - containerPort: 8080
