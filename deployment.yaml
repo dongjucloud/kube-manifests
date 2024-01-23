@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: k8s
-        image: {dockerhub}/docker:{jenkins build number}
+        image: dongjucloud/ci-cd:{jenkins build number}
         ports:
           - containerPort: 8080
