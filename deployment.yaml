@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: k8s
-        image: {dockerhub}/k8s:26
+        image: {dockerhub}/k8s:27
         ports:
           - containerPort: 8080
