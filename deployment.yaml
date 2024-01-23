@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: k8s
-        image: dongjucloud/docker:22
+        image: dongjucloud/docker:23
         ports:
           - containerPort: 8080
