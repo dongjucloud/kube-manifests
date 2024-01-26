@@ -1,1 +1,2 @@
-# kube-manifest
+# jenkins manifest
+kube-manifest
